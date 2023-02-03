@@ -1,0 +1,12 @@
+.page-body {
+  margin: 30px;
+}
+
+.container-body {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 30%;
+}
