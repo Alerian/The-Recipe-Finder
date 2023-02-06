@@ -1,4 +1,5 @@
 import { Navbar } from "./components/Navbar";
+import { SearchBar } from "./components/SearchBar";
 
 export const App = () => {
   return (
@@ -7,6 +8,7 @@ export const App = () => {
       <div className="navbar-body">
         <Navbar />
       </div>
+      <SearchBar />
     </section>
   );
 };
