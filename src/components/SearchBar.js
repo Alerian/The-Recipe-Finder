@@ -3,6 +3,8 @@ import { useFormik } from "formik";
 import axios from "axios";
 import * as Yup from "yup";
 
+//GET random recipies https://api.spoonacular.com/recipes/random
+
 const getApi = () => {
   axios
     .get(

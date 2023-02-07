@@ -1,14 +1,15 @@
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./AppRoutes";
+
 import { Navbar } from "./components/Navbar";
-import { SearchBar } from "./components/SearchBar";
 
 export const App = () => {
   return (
-    <section className="page-body">
-      {/* Navigation Bar */}
-      <div className="navbar-body">
+    <BrowserRouter>
+      <section className="app">
         <Navbar />
-      </div>
-      <SearchBar />
-    </section>
+        <AppRoutes />
+      </section>
+    </BrowserRouter>
   );
 };
