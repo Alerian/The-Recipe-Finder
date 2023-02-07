@@ -15,7 +15,7 @@ const getApi = () => {
     });
 };
 
-export const SearchBar = () => {
+export const SearchBar = ({ setSearchTerm }) => {
   const initialValues = { searchTerm: "" };
 
   const validationSchema = Yup.object({
@@ -23,7 +23,7 @@ export const SearchBar = () => {
   });
 
   const onSubmit = ({ searchTerm }) => {
-    console.log(searchTerm);
+    setSearchTerm(searchTerm);
   };
 
   const formik = useFormik({
