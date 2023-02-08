@@ -3,8 +3,6 @@ import { useFormik } from "formik";
 import axios from "axios";
 import * as Yup from "yup";
 
-//GET random recipies https://api.spoonacular.com/recipes/random
-
 const getApi = () => {
   axios
     .get(
@@ -34,22 +32,24 @@ export const SearchBar = ({ setSearchTerm }) => {
 
   return (
     <form onSubmit={formik.handleSubmit} className="d-flex" role="search">
-      <div class="p-2 w-100">
+      <div className="p-2 w-100">
         <div>
           <input
             id="searchTerm"
             className="form-control me-2"
-            placeholder="Enter a recipe"
+            placeholder="Enter an ingredient"
             value={formik.values.searchTerm}
             onChange={formik.handleChange}
           ></input>
           {formik.errors.searchTerm && (
-            <div class="form-text text-danger">{formik.errors.searchTerm}</div>
+            <div className="form-text text-danger">
+              {formik.errors.searchTerm}
+            </div>
           )}
         </div>
       </div>
-      <div class="p-2 flex-shrink-1">
-        <button class="btn btn-outline-success" type="submit">
+      <div className="p-2 flex-shrink-1">
+        <button className="btn btn-outline-success" type="submit">
           Search
         </button>
       </div>

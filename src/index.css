@@ -1,16 +1,31 @@
 body {
+  font-family: sans-serif;
   margin: 0;
+}
+
+.recipe-card {
+  box-shadow: 1px 1px 8px rgba(139, 172, 233, 0.418);
+  padding: 10px;
+  margin: 10px;
+  width: 18rem;
+}
+.card-img-top {
+  background-size: contain;
+}
+.card-title {
+  height: 50px;
+}
+
+h1 {
+  padding-inline: 20px;
+}
+
+.navbar,
+.nav-item {
+  padding: 10px;
 }
 
 .app {
   margin: 30px;
-}
-
-.container-body {
-  display: flex;
-  flex-flow: wrap;
-}
-
-.card {
-  width: 30%;
+  background-color: rgba(255, 255, 255, 0.096);
 }
