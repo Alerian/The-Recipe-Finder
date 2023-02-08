@@ -25,7 +25,13 @@ export const Favourites = () => {
           />
         ))}
 
-      {favourites && favourites.length === 0 && <div>Deliveroo Me Please</div>}
+      {favourites && favourites.length === 0 && (
+        <div>
+          <h2 className="favourites-card">
+            Find some recipes to add to your Favourites!
+          </h2>
+        </div>
+      )}
     </div>
   );
 };
