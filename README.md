@@ -1,3 +1,8 @@
 # Recipe Finder
 
-![image](https://user-images.githubusercontent.com/80739359/217915054-8fca3543-edc5-4d33-a5b7-0a58d94c2035.png)
+![image](https://user-images.githubusercontent.com/80739359/217916008-d2c99768-85b3-4c0f-b772-62edf8aac8b5.png)
+
+Favourites Page
+
+![image](https://user-images.githubusercontent.com/80739359/217916543-234a5541-a065-4daf-8a7b-a070eb800058.png)
+
