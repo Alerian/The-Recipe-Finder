@@ -1,10 +1,12 @@
 body {
   font-family: sans-serif;
+  background-size: cover;
   margin: 0;
 }
 
 .recipe-card {
   box-shadow: 1px 1px 8px rgba(139, 172, 233, 0.418);
+  background-color: rgba(255, 255, 255, 0.918);
   padding: 10px;
   margin: 10px;
   width: 18rem;
@@ -30,12 +32,15 @@ h1 {
 
 .app {
   margin: 30px;
-  background-color: rgba(255, 255, 255, 0.096);
 }
 
 .favourites-card {
   padding: 50px;
   margin: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.116);
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+#navBar {
+  background-color: rgb(224, 134, 16);
 }

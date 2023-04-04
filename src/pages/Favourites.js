@@ -14,7 +14,7 @@ export const Favourites = () => {
   console.log(favourites);
 
   return (
-    <div>
+    <div className="d-flex justify-content-around flex-wrap">
       {favourites &&
         favourites.length !== 0 &&
         favourites.map((recipe) => (

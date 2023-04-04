@@ -13,7 +13,7 @@ export const Navbar = () => {
             <FaPizzaSlice style={{ fontSize: "30px" }} />
           </a>
           <h1 className="titleRecipe" style={{ fontSize: "35px" }}>
-            Recipe Finder{" "}
+            Recipe Ideas{" "}
           </h1>
           <button
             className="navbar-toggler"
